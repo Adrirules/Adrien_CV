@@ -1,1 +1,75 @@
 // Specific CSS for your home-page
+.container-white {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0px 50px 0px;
+  }
+
+
+.description {
+  padding: 0px 30px;
+}
+
+.card {
+  padding: 0px 30px;
+
+}
+
+.profil-img {
+  border-bottom-color: $blue;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+  border-right-color: $blue;
+  border-right-style: solid;
+  border-right-width: 15px;
+
+}
+
+.container-blue {
+  background-color: rgba(28, 77, 242, 0.15);
+  padding: 50px 0px 50px 0px;
+}
+
+.contact {
+  text-align: center;
+
+}
+
+.fa-envelope, .fa-mobile{
+  color: $blue;
+}
+
+
+
+
+
+// mobile
+@media(max-width:750px) {
+  .container-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 0px 50px 0px;
+  }
+  .card {
+    padding: 0px 30px;
+  }
+  .description {
+  padding: 30px;
+  }
+
+.profil-img {
+  border-bottom-color: $blue;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+  border-right-color: $blue;
+  border-right-style: solid;
+  border-right-width: 15px;
+  width:315px;
+
+}
+}

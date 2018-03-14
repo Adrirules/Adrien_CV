@@ -1,2 +1,25 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div id="home" class="wrapper">
+  <div class="container-white">
+    <div id="about" class="description">
+      <h1>Full stack Developer, Web developpement </h1>
+      <p>9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails.</p>
+    </div>
+    <div class="card">
+      <div class="profil-img">
+        <%= cl_image_tag("Adrien-zafiropoulos.jpg", height: 300, width: 300, crop: :fill )  %>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-blue">
+    <div class="contact">
+      <div class="title">
+        <h1>Contact</h1>
+      </div>
+      <div id="contact" class="content">
+        <p><i class="fa fa-envelope"> <br></i>adrien.zafiropoulos@gmail.com</p>
+        <p><i class="fa fa-mobile"></i> 0627139601</p>
+      </div>
+    </div>
+  </div>
+</div>
