@@ -17,6 +17,8 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'cloudinary'
 gem 'carrierwave', '~> 1.2'
+gem 'google-analytics-rails', '1.1.0'
+
 
 
 
