@@ -1,0 +1,20 @@
+.home-banner {
+  background-image: url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-0.3.5&s=e70e92b88f91e8766a67fd81d719b77a&auto=format&fit=crop&w=1352&q=80');
+  background-color: #1c4df2;
+  background-size: cover;
+  height: 100vh;
+  color: rgb(65, 64, 66);
+  text-align: center;
+  padding-top: 40vh;
+
+    &:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(315deg, #1c4df2 25%, #ffffff 100%);
+  opacity: .2;
+  }
+}

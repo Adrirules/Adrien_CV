@@ -24,7 +24,7 @@
   border-right-color: $blue;
   border-right-style: solid;
   border-right-width: 15px;
-
+  border-radius: 6px;
 }
 
 .container-blue {
@@ -42,7 +42,9 @@
 }
 
 
-
+img {
+  border-radius : 6px 0px 0px 0px ;
+}
 
 
 // mobile
@@ -69,6 +71,8 @@
   border-right-style: solid;
   border-right-width: 15px;
   width:315px;
+  border-radius: 6px;
+
 
 }
 }
