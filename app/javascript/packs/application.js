@@ -9,4 +9,6 @@ initUpdateNavbarOnScroll();
 import { loadDynamicBannerText } from '../components/banner';
 loadDynamicBannerText();
 
-AOS.init();
+AOS.init({
+  disable: 'mobile'
+});
