@@ -1,3 +1,7 @@
+import "../components/driftbot";
+import { drift } from '../components/driftbot';
+loadDynamicBannerText();
+
 import "bootstrap";
 
 import "../components/smooth_scroll";
@@ -12,6 +16,4 @@ AOS.init({
   disable: 'mobile'
 });
 
-import "../components/driftbot";
-import { drift } from '../components/driftbot';
-loadDynamicBannerText();
+

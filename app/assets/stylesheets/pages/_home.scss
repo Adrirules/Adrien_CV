@@ -32,8 +32,19 @@ h1 span{ position:absolute; top:-95px;}
   justify-content: center;
 }
 
-.fa-envelope, .fa-mobile{
+.fa-envelope {
   color: $blue;
+  padding: 5px;
+    }
+
+  .fa-mobile {
+  color: $blue;
+  font-size: 30px;
+  padding: 10px;
+}
+
+p {
+  margin:0px;
 }
 
 img {
