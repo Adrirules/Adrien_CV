@@ -40,7 +40,7 @@ h1 span{ position:absolute; top:-95px;}
   .fa-mobile {
   color: $blue;
   font-size: 30px;
-  padding: 10px;
+  padding: 5px;
 }
 
 p {
@@ -100,7 +100,7 @@ img {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 25px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
   }
   .card {
     // padding: 0px;
@@ -113,16 +113,8 @@ img {
   padding: 0px 30px 50px 30px
 
   }
-
-.profil-img {
-  // border-bottom-color: $blue;
-  // border-bottom-style: solid;
-  // border-bottom-width: 15px;
-  // border-right-color: $blue;
-  // border-right-style: solid;
-  // border-right-width: 15px;
-  // width:315px;
-  // border-radius: 6px;
+.container-grey {
+  padding: 50px 0px 50px 0px;
 }
 .bg-white {
   background-color: rgba(255, 255, 255, 0.9);

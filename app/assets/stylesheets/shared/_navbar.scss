@@ -106,3 +106,10 @@ h2 {
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+// mobile
+@media(max-width:750px) {
+  .navbar-wagon-link {
+    padding: 0px 6px;
+  }
+}

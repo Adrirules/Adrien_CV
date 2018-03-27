@@ -1,7 +1,3 @@
-import "../components/driftbot";
-import { drift } from '../components/driftbot';
-loadDynamicBannerText();
-
 import "bootstrap";
 
 import "../components/smooth_scroll";
@@ -10,6 +6,11 @@ initUpdateNavbarOnScroll();
 
 import "../components/banner";
 import { loadDynamicBannerText } from '../components/banner';
+loadDynamicBannerText();
+
+
+import "../components/driftbot";
+import { drift } from '../components/driftbot';
 loadDynamicBannerText();
 
 AOS.init({
