@@ -2,7 +2,7 @@
 
   <div id="up" class="home-banner">
     <div class="bg-white">
-      <h1>Freelance Developer</h1>
+      <h1><%= t "banner.title" %></h1>
       <p><span id="banner-typed-text"></span></p>
     </div>
     <div>
@@ -14,8 +14,8 @@
 
   <div class="container-white" id="about">
     <div  class="description" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="600">
-      <h1></span>Full stack Developer, Web developpement </h1>
-      <p>9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails.</p>
+      <h1></span><%= t "white.title" %> </h1>
+      <p><%= t "white.content" %></p>
 
     </div>
     <div class="card">
@@ -28,12 +28,12 @@
   <div class="container-grey" id= "work">
     <div class="content" data-aos="fade-up">
       <div class="title">
-        <h1> How can we work together ?</h1>
+        <h1><%= t "grey.title" %></h1>
       </div>
       <div>
-        <p>I currently accept new projets and would love to hear about yours. I am a full-stack developer, which means I'm able to deliver complete projects, from the initial thinking to the online release. Please take a few minutes to fill out this form
+        <p><%= t "grey.content" %>
         </p>
-        <button class ="go-button"> Let's go </button>
+        <button class ="go-button"> <%= t "grey.go" %> </button>
       </div>
     </div>
   </div>

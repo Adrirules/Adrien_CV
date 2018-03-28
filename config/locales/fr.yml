@@ -1,0 +1,50 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+fr:
+  navbar:
+    about: "A PROPOS"
+    work: "TRAVAIL"
+    contact: "CONTACT"
+  banner:
+    title: "Développeur freelance"
+  white:
+    title: "Full-stack Developer, Web developpement"
+    content: "J’ai effectué le programme Fullstack du Wagon à Paris (batch #120).
+Lors de cette formation intensive de 9 semaines, j'ai développé un clone d’Air BnB ainsi qu’une application Rails avec les technologies suivantes :
+Ruby on Rails, Bootstrap, JavaScript, jQuery, SQL, git, GitHub et Heroku."
+  grey:
+    title: "Comment pouvons-nous travailler ensemble ?"
+    content: "J'accepte de nouveaux projets et j'adorerais connaître les vôtres. Je suis un développeur full-stack, ce qui signifie que je suis en mesure de livrer des projets complets, de la réflexion initiale jusqu'à la mise en ligne. Pour me contacter, veuillez prendre quelques minutes pour remplir ce formulaire"
+    go: "Envoyer un message"
+  footer:
+    love1: "Fait avec"
+    love2: "par Adrien"
