@@ -8,6 +8,12 @@
     <a href="#about" class="navbar-wagon-item navbar-wagon-link"><%= t "navbar.about" %></a>
     <a href="#work" class="navbar-wagon-item navbar-wagon-link"><%= t "navbar.work" %></a>
     <a href="#contact" class="navbar-wagon-item navbar-wagon-link"><%= t "navbar.contact" %></a>
-    <a class="navbar-wagon-item navbar-wagon-link flag"><%= link_to "🇫🇷 ", locale: 'fr' %> <br> <%= link_to "🇬🇧", locale: 'en' %></a>
+    <div class="flag">
+      <% if I18n.locale == :fr %>
+        <%= link_to "🇬🇧", locale: 'en'%>
+      <% else  %>
+        <%= link_to "🇫🇷 ", locale: 'fr'%>
+      <% end %>
+    </div>
   </div>
 </div>
