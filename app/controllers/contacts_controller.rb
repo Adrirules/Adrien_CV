@@ -1,11 +1,14 @@
 class ContactsController < ApplicationController
+  include MailForm::Shim
+  include MailForm::Delivery
+
   def new
     @contact = Contact.new
   end
 
   def create
     @contact = Contact.new(contacts_params)
-    @contact.request = request
+    # @contact.request = request
     if @contact.deliver
       flash.now[:notice] = 'Thank you for your message. We will contact you soon!'
     else
