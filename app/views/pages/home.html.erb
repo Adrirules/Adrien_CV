@@ -31,9 +31,9 @@
         <h1><%= t "grey.title" %></h1>
       </div>
       <div>
-        <p><%= t "grey.content" %>
-        </p>
-        <button class ="go-button"> <%= t "grey.go" %> </button>
+        <p><%= t "grey.content" %></p>
+        <button class ="go-button" data-toggle="modal" data-target="#myModal"> <%= t "grey.go" %> </button>
+        <%= render "components/modal" %>
       </div>
     </div>
   </div>

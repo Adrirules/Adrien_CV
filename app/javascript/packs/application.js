@@ -18,3 +18,4 @@ AOS.init({
 });
 
 
+import "../components/modal";
