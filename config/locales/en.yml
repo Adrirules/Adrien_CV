@@ -39,9 +39,13 @@ en:
   white:
     title: "Full stack Developer, Web developpement"
     content: "9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails."
+  odiable:
+    content: "Transport of bulky objects between individuals"
+  ridebnb:
+    content: "Green transport rental, between individuals"
   grey:
     title: "How can we work together ?"
-    content: "I currently accept new projets and would love to hear about yours. I am a full-stack developer, which means I'm able to deliver complete projects, from the initial thinking to the online release. Please take a few minutes to fill out this form"
+    content: "I currently accept new projets and would love to hear about yours. I am a full-stack developer, which means I'm able to deliver complete projects, from the initial thinking to the online release. Want to work together? Or just drink coffee?  Please take a few minutes to talk to my bot at the bottom right of the window or contact me via e-mail or phone"
     go: "Let's go"
   footer:
     love1: "Made with"

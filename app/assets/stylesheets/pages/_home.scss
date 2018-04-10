@@ -67,8 +67,7 @@ img {
 
 .container-grey {
   background-color: rgb(240, 240, 240);
-  padding: 100px 2.5rem 100px 2.5rem;
-  display: flex;
+  padding: 100px 0rem;  display: flex;
   flex-direction: row;
   justify-content: center;
 }
@@ -92,6 +91,52 @@ img {
   text-align: center;
 
 }
+.card {
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: 20px;
+
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  text-align: left;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+.card:hover{
+    height:350px;
+}
+
+
 
 // mobile
 @media(max-width:750px) {

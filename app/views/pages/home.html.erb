@@ -27,13 +27,23 @@
 
   <div class="container-grey" id= "work">
     <div class="content" data-aos="fade-up">
-      <div class="title">
-        <h1><%= t "grey.title" %></h1>
+      <div class= "title">
+        <h1> Work</h1>
+        <p> Here some example of wesbsite I have created</p>
       </div>
-      <div>
-        <p><%= t "grey.content" %></p>
-        <button class ="go-button" data-toggle="modal" data-target="#myModal"> <%= t "grey.go" %> </button>
-        <%= render "components/modal" %>
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('http://res.cloudinary.com/adrirules/image/upload/v1523290383/show_odiable.png');">
+        <div class="card-description">
+          <h3>Odiable</h3>
+          <p><%= t "odiable.content" %></p>
+        </div>
+        <a class="card-link" href="https://www.odiable.tech/" ></a>
+      </div>
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('http://res.cloudinary.com/adrirules/image/upload/v1523290558/dashboard_ridebnb.png');">
+        <div class="card-description">
+          <h3>RideBnB</h3>
+          <p><%= t "ridebnb.content" %></p>
+        </div>
+        <a class="card-link" href="https://ridebnb.herokuapp.com/" ></a>
       </div>
     </div>
   </div>
@@ -41,7 +51,13 @@
   <div class="container-blue" id="contact">
     <div class="contact content" data-aos="fade-up">
       <div class="title">
-        <h1> Contact</h1>
+        <h1><%= t "grey.title" %></h1>
+      </div>
+      <div>
+        <p><%= t "grey.content" %></p>
+      </div>
+      <div class="title">
+        <h3> Contact</h3>
       </div>
       <div>
         <p><i class="fa fa-envelope"> <span>   </span><br></i>adrien.zafiropoulos@gmail.com</p>

@@ -41,9 +41,13 @@ fr:
     content: "J’ai effectué le programme Fullstack du Wagon à Paris (batch #120).
 Lors de cette formation intensive de 9 semaines, j'ai développé un clone d’Air BnB ainsi qu’une application Rails avec les technologies suivantes :
 Ruby on Rails, Bootstrap, JavaScript, jQuery, SQL, git, GitHub et Heroku."
+  odiable:
+    content: "Transport d'objet volumineux entre particuliers"
+  ridebnb:
+    content: "Location de transports green, entre particuliers"
   grey:
     title: "Comment pouvons-nous travailler ensemble ?"
-    content: "J'accepte de nouveaux projets et j'adorerais connaître les vôtres. Je suis un développeur full-stack, ce qui signifie que je suis en mesure de livrer des projets complets, de la réflexion initiale jusqu'à la mise en ligne. Pour me contacter, veuillez prendre quelques minutes pour remplir ce formulaire"
+    content: "J'accepte de nouveaux projets et j'adorerais connaître les vôtres. Je suis un développeur full-stack, ce qui signifie que je suis en mesure de livrer des projets complets, de la réflexion initiale jusqu'à la mise en ligne. Vous souhaitez que l’on travaille ensemble ? Ou juste boire un café ? Vous pouvez me contacter par e-mail, par téléphone ou via le bot en bas à droite de votre fenêtre."
     go: "Envoyer un message"
   footer:
     love1: "Fait avec"
