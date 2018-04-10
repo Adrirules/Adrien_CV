@@ -39,6 +39,9 @@ en:
   white:
     title: "Full stack Developer, Web developpement"
     content: "9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails."
+  w:
+    work: "Work"
+    content: "Here some examples of wesbsites I have developed"
   odiable:
     content: "Transport of bulky objects between individuals"
   ridebnb:

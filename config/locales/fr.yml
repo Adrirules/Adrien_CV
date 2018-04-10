@@ -39,8 +39,11 @@ fr:
   white:
     title: "Full-stack Developer, Web developpement"
     content: "J’ai effectué le programme Fullstack du Wagon à Paris (batch #120).
-Lors de cette formation intensive de 9 semaines, j'ai développé un clone d’Air BnB ainsi qu’une application Rails avec les technologies suivantes :
+Lors de cette formation intensive de 9 semaines, j'ai développé un clone d’AirBnB ainsi qu’une application Rails avec les technologies suivantes :
 Ruby on Rails, Bootstrap, JavaScript, jQuery, SQL, git, GitHub et Heroku."
+  w:
+    work: "Travail"
+    content: "Voici quelques exemples de mon travail"
   odiable:
     content: "Transport d'objet volumineux entre particuliers"
   ridebnb:
