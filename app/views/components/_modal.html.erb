@@ -1,5 +1,5 @@
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -10,19 +10,19 @@
        <div align="center">
          <h3>Send A message to Us</h3>
 
-         <%= simple_form_for Contact.new, url: {controller: 'contacts', action: 'create'}, :html => {:class => 'form-horizontal' } do |f| %>
-           <%= f.input :last_name, :required => true %>
-           <%= f.input :first_name, :required => true %>
-           <%= f.input :email, :required => true %>
-           <%= f.input :message, :as => :text, :required => true %>
+         <%#= simple_form_for Contact.new, url: {controller: 'contacts', action: 'create'}, :html => {:class => 'form-horizontal' } do |f| %>
+           <%#= f.input :last_name, :required => true %>
+           <%#= f.input :first_name, :required => true %>
+           <%#= f.input :email, :required => true %>
+           <%#= f.input :message, :as => :text, :required => true %>
             <div class= "hidden">
-              <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+              <%#= f.input :nickname, :hint => 'Leave this field blank!' %>
             </div>
            <div>
              </br>
-             <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+             <%#= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
            </div>
-         <% end %>
+         <%# end %>
        </div>
       </div>
       <div class="modal-footer">
@@ -31,6 +31,6 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
