@@ -1,6 +1,8 @@
 import "bootstrap";
 
 import "../components/smooth_scroll";
+
+import "../components/navbar";
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 initUpdateNavbarOnScroll();
 
@@ -18,4 +20,7 @@ AOS.init({
 });
 
 
-import "../components/modal";
+// import "../components/modal";
+
+
+

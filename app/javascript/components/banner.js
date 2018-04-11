@@ -2,10 +2,10 @@ import Typed from 'typed.js';
 
 function loadDynamicBannerText() {
   new Typed('#banner-typed-text', {
-    strings: ["Landing pages", "Static web pages", "Dynamic web pages", "Web applications"],
+    strings: ["Landing pages", "&amp; Static web pages", "&amp; Dynamic web pages", "&amp; Web applications"],
     typeSpeed: 30,
-    loop: true,
+    // loop: true,
   });
-}
+};
 
 export { loadDynamicBannerText };
